@@ -1,0 +1,11 @@
+
+Installation:
+
+32 bit
+dpkg -i u2-anon_0.9.0b-1_i386.deb
+
+
+64 bit
+dpkg -i u2-anon_0.9.0b-1_amd64.deb
+
+Usage:
