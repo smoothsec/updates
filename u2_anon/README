@@ -1,4 +1,11 @@
 
+u2_anon  is a tool that allows you to "share" anonymized unified2
+files to help debug issues or share results without compromising 
+the information contained inside.
+
+https://github.com/binf/u2_anon
+
+
 Installation:
 
 32 bit
