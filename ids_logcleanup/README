@@ -1,0 +1,21 @@
+snort.cleanlogs and  suricata.cleanlogs will take care
+to clean up the unified log files in the snort and suricata
+logging directory.
+
+Installation.
+
+cp snort.cleanlogs /etc/cron.daily/
+
+cp suricata.cleanlogs /etc/cron.daily/
+
+chmod ugo+x /etc/cron.daily/snort.cleanlogs
+
+chmod ugo+x /etc/cron.daily/suricata.cleanlogs
+
+Configuration.
+
+At the beginning of each script there's a DAYS variable.
+
+#Specify how many days to keep the Unified2 logs before deleting.
+DAYS=5
+

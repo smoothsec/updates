@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Specify how many days to keep the Unified2 logs before deleting.
+DAYS=5
+
+if [ -d /var/log/snort ]; then
+
+	/usr/bin/find  /var/log/snort/ -name "snort.unified2*"  -mtime +$DAYS -exec rm {} \;
+
+else 
+
+	echo "Snort directory doesn't exist!!!"
+
+fi
