@@ -12,8 +12,11 @@ In the SmoothSec /root/updates/ directory type the following command:
 Pulledpork suricata fix
 
 cd fixes/pulledpork/
+
 cp pulledpork.pl suricata.pulledpork.pl /usr/local/bin/
+
 chmod +x /usr/local/bin/pulledpork.pl
+
 chmod +x /usr/local/bin/suricata.pulledpork.pl 
 
 
