@@ -1,7 +1,7 @@
 updates
 =======
 
-SmoothSec updates served via Github.
+ SmoothSec updates served via Github.
 
 In the SmoothSec /root/updates/ directory type the following command:
 
